@@ -41,7 +41,7 @@
     </div>
     <shopCard :selectedFoods="selectedFoods" ref="shopcard"></shopCard>
     <div class="food" :class="{active : showFood}">
-      <food  :food="food"></food>
+      <food :food="food"></food>
     </div>
 
   </div>
